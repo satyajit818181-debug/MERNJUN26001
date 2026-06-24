@@ -1,22 +1,39 @@
-console.log("hello world");
-a=30
+console.log ("hello world");
+a=30;
 console.log(a);
 
-A=40
+A=40;
 console.log(A);
 
-st1="ss";
+st1="satya";
 console.log(st1);
 
-$=70;
-console.log($)
+_=0001;
+console.log(_);
 
-full_name="hii";
+$=9090;
+console.log($);
+
+full_name="yoo";
 console.log(full_name);
 
-//declare at function level
+
+var a=30;
+console.log(a)
+
+
+{var b=50;
+    console.log("block level accesss")
+}
+
+console.log("outside the block")
+
 function getV(){
     var d=55;
-
+    console.log(d);
 }
-console.log(d)
+getV()
+
+
+
+
