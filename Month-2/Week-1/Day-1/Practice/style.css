@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fff;
+}
+
+/* Navbar */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+}
+
+.logo h2{
+    color:#333;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    margin:0 15px;
+}
+
+.btn{
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+/* Hero Section */
+.hero{
+    background:#f5f7fa;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:80px;
+}
+
+.hero-text h1{
+    font-size:60px;
+    color:#333;
+}
+
+.green{
+    color:#4CAF50;
+}
+
+.hero-text p{
+    margin:20px 0;
+    color:gray;
+}
+
+.register-btn{
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.hero-img img{
+    width:350px;
+}
+
+/* Clients */
+.clients{
+    text-align:center;
+    padding:60px;
+}
+
+.clients h2{
+    font-size:40px;
+    color:#333;
+}
+
+.clients p{
+    color:gray;
+    margin-top:10px;
+}
+
+.logos{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:40px;
+    font-size:40px;
+    color:#444;
+}
+
+/* Community */
+.community{
+    text-align:center;
+    padding:50px;
+}
+
+.community h2{
+    font-size:42px;
+    color:#333;
+}
+
+.community p{
+    color:gray;
+    margin-top:10px;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-around;
+    margin-top:50px;
+}
+
+.card{
+    width:250px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card i{
+    font-size:45px;
+    color:#4CAF50;
+    margin-bottom:20px;
+}
+
+.card h3{
+    color:#333;
+}
